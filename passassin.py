@@ -46,7 +46,7 @@ def gen_candidate(master, org, attempt):
 	num = int.from_bytes(digest, byteorder='little')
 	for i in range(0, LENGTH):
 		index = num % NUM_CHARS
-		num = int(num / NUM_CHARS)
+		num = num // NUM_CHARS
 		candidate += ALL[index]
 	return candidate
 
