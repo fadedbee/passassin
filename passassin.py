@@ -28,7 +28,7 @@ LENGTH = 16
 def main():
 	# get user input
 	master = getpass.getpass('master passphrase: ')
-	print('website: ', end='', flush=True)
+	print('website or resource: ', end='', flush=True)
 	org = sys.stdin.readline().rstrip()
 
 	# generate passwords until one is valid
