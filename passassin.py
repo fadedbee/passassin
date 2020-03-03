@@ -12,7 +12,7 @@ import getpass
 import hmac
 import hashlib
 
-SYMBOLS = '%&-_=+@#~,.?/\\' 
+SYMBOLS = '%&-_#,.?/' 
 LOWER = 'abcdefghijklmnopqrstuvwxyz'
 UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 DIGITS = '0123456789'
